@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(186, 255, 255);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.RemoveItem:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.EditItem:hover {
+    cursor: pointer;
+    color: green;
+}
+
+.Modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
